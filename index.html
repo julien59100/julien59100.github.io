@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>formulaire simplon</title>
+        </head>
+        <body>
+
+        <form action="my-handling-form-page" method="post"></form>
+            <form action="ma-page-de-traitement" method="post">
+                
+                    <p>
+                        Homme<input type="radio" name="genre"><br>
+                        Femme<input type="radio" name="genre">
+
+                    </p>
+                    
+                    
+                    <div>
+                    <label for="age">age :</label>
+                    <input type="number" id="age">
+                    </div>
+                    <label for="name">nom :</label>
+                    <input type="text" id="name" name="user_name">
+                    <div>
+                        <label for="prenom">prenom :</label>
+                        <input type="text" id="prenom">
+                    </div>
+                    <div>
+                        <label for="code-postale">code postale</label>
+                        <input type="number" id="code-postale">
+                        </div>
+                        <div>
+                            <label for="metier-exerce">metier exerce</label>
+                            <input type="text" id="metier-exerce" placeholder="autre">
+                            <select name="metier-exerce">
+                                <option value="developpeur">Developpeur</option>
+                                <option value="commercant">commercant</option>
+                                <option value="boulanger">Boulanger</option>
+                                <option value="ambulancier">Ambulancier</option>
+                                <option value="aide soignante">Aide soignante</option>
+                                <option value="preparateur de commande">préparateur de</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="nationnalite">nationnalité</label>
+                            <input type="text" placeholder="autre">
+                            <select name="nationnalite" id="nationnalite">
+                            <option value="français" selected>france</option>
+                            <option value="ethiopien">ethiopie</option>
+                            <option value="algerien">algerie</option>
+                            <option value="canadien">Canadien</option>
+                            <option value="bielorusse">Biélorusse</option>
+                            <option value="camerounais">Camerounais</option>
+                            <option value="congolais">Congolais</option>
+                            <option value="americain">Americain</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="date-de-naissance">date de naissance</label>
+                            <input type="date" id="date-de-naissance">
+                        </div>
+                        <div>
+                            <label id="pays-de-naissance">pays de naissance</label>
+                            <input type="text" placeholder="autre">
+                            <select name=pays-de-naissance>
+                                <option value="france" selected>France</option>
+                                <option value="ethiopie">ethiopie</option>
+                                <option value="algerie">algerie</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="numero-de-securite-social">numéro de sécurité social</label>
+                            <input type="number" id="numero-de-securite-social">
+                        </div>
+                
+                
+                <div>
+                    <label id="addresse-postale">adresse postale :</label>
+                    <input type="text">
+                    </div>
+                    <div>
+                        <label for ="ville">ville</label>
+                        <input type="text" id="ville">
+                    </div>
+                    <div>
+                        <label for="numero-de-passeport">numéro de passeport</label>
+                        <input type="number" id="numero-de-passeport">
+                    </div>
+                    <div>
+                        <label for="Date-de-delivrance-du-passeport">Date de délivrance du passeport</label>
+                        <input type="month" id="Date-de-delivrance-du-passeport">
+                    </div>
+                    <div>
+                        <label for="date-de-validite-de-passeport">date de validité de passeport</label>
+                        <input type="month" id="date-de-validite-de-passeport">
+                    </div>
+                    <div>
+                    <label for="mail">adresse mail :</label>
+                    <input type="email" id="mail" name="user_mail">
+                </div>
+                <input type="submit" value="envoyer">
+                
+                    
+                
+            
+        </form>
+        </body>        
+        </html>
